@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
@@ -12,7 +11,6 @@ import {
 import {
   SiMysql,
   SiNeo4J,
-  SiFirebase,
   SiPowerbi,
   SiTableau,
 } from "react-icons/si";
