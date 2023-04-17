@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 // import Particle from "../Particle";
 import customer from "../../Assets/Projects/CustomerChurn.png";
 import fashion from "../../Assets/Projects/fashion.png";
-import emotion from "../../Assets/Projects/emotion.png";
+// import emotion from "../../Assets/Projects/emotion.png";
 import covid from "../../Assets/Projects/Covid.jpg";
 import nlp from "../../Assets/Projects/nlp.webp";
 import market from "../../Assets/Projects/market.jpg";
@@ -85,7 +85,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -95,7 +95,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
