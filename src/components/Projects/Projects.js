@@ -28,6 +28,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              init = {67}
               imgPath={nlp}
               isBlog={false}
               title="Ukraine-Russia Twitter Analysis"
@@ -39,6 +40,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              init = {45}
               imgPath={customer}
               isBlog={false}
               title="Customer Churn Prediction"
@@ -50,6 +52,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              init = {59}
               imgPath={fashion}
               isBlog={false}
               title="Fashion Items Image Classification"
@@ -63,6 +66,7 @@ function Projects() {
           </p>
           <Col md={4} className="project-card">
             <ProjectCard
+              init = {32}
               imgPath={covid}
               isBlog={false}
               title="COVID-19 Data Tracker"
@@ -76,6 +80,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              init = {27}
               imgPath={market}
               isBlog={false}
               title="e-Marketplace User Interface"

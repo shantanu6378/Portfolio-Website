@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(props.init);
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -32,11 +32,10 @@ function ProjectCards(props) {
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
-          <Button variant="primary" href={props.demoLink} target="_blank" onClick={() => setCount(count + 1)}>
+          <Button variant="primary" href={props.ghLink} target="_blank" onClick={() => setCount(count + 1)}>
             <CgWebsite /> &nbsp;
             {"Demo"}
           </Button>
-          
         )}
       </Card.Body>
     </Card>
