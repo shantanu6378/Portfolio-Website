@@ -33,7 +33,7 @@ This project was built using these technologies.
 
 **📱 Fully Responsive**
 
-** Tracks number of views to each project GitHub link **
+**Tracks number of views to each project GitHub link**
 
 ## Getting Started
 
