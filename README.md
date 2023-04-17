@@ -13,7 +13,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [shantanu6378](https://github.com/shantanu6378/Portfolio-Website). Thanks!
+You can fork this repo to modify and make changes of your own. You can give me credit by linking back to [shantanu6378](https://github.com/shantanu6378/Portfolio-Website). Thanks!
 
 ## Built With
 
@@ -52,7 +52,4 @@ The page will reload if you make edits.
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
 
-### Show your support
-
-Give a ⭐ if you like this website!
 
