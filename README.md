@@ -33,6 +33,8 @@ This project was built using these technologies.
 
 **📱 Fully Responsive**
 
+** Tracks number of views to each project GitHub link **
+
 ## Getting Started
 
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
