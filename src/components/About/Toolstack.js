@@ -1,15 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
+  
   SiVisualstudiocode,
   SiPandas,
   SiScikitlearn,
-  SiTensorflow,
   SiPytorch,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
   SiJupyter
 } from "react-icons/si";
 
