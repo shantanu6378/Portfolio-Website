@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./Projects/ProjectCards";
+import { Container, Row} from "react-bootstrap";
+// import ProjectCard from "./Projects/ProjectCards";
 import WorkCard from "./WorkCards";
 // import Particle from "../Particle";
 import uiuc from "../Assets/uiuc.png";
