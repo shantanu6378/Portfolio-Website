@@ -7,6 +7,7 @@ import fashion from "../../Assets/Projects/fashion.png";
 // import emotion from "../../Assets/Projects/emotion.png";
 import covid from "../../Assets/Projects/Covid.jpg";
 import nlp from "../../Assets/Projects/nlp.webp";
+import cseg from "../../Assets/Projects/customer_seg.png";
 import market from "../../Assets/Projects/market.jpg";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -26,6 +27,18 @@ function Projects() {
           Data Science Projects
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              init = {24}
+              imgPath={cseg}
+              isBlog={false}
+              title="Customer Segmentation for Marketing Campaign"
+              description="This project utilizes unsupervised learning to understand customer behaviour. By identifying customer segments, we can help improve revenue by understanding the targeted audience and improve marketing strategies."
+              ghLink="https://github.com/shantanu6378/Customer-Segmentation-for-Marketing-Campaign"
+          
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               init = {67}
