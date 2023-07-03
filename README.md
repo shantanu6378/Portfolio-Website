@@ -15,6 +15,7 @@
 
 You can fork this repo to modify and make changes of your own. You can give me credit by linking back to [shantanu6378](https://github.com/shantanu6378/Portfolio-Website). Thanks!
 
+The website is hosted at: https://ssolanki.netlify.app.
 ## Built With
 
 This project was built using these technologies.
